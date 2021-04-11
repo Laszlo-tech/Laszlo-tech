@@ -1,4 +1,5 @@
 import javax.sound.midi.Soundbank;
+import java.util.Enumeration;
 import java.util.Scanner;
     public class Main {
 
@@ -156,7 +157,6 @@ import java.util.Scanner;
             String question = scanner.nextLine();
 
             System.out.println("That's great!");
-            */
 
             System.out.println("Distance in miles: ");
 
@@ -167,11 +167,44 @@ import java.util.Scanner;
             int number = scanner.nextInt();
 
             if (number%2==0){
-                System.out.println();
+                System.out.println("This is an even number");
+            }else{
+                System.out.println("This is an odd number");
+            }
+
+            System.out.println("Please type a number of your choice :");
+            int numbe = scanner.nextInt();
+
+            if (numbe <= 0){
+                System.out.println("Not enough");
+            }else if (numbe == 1){
+                System.out.println("One");
+            }else if (numbe == 2){
+                System.out.println("Two");
+            }else{
+                System.out.println("A lot!");
             }
 
 
+            System.out.println("Choose a number please: ");
+            int a = scanner.nextInt();
+            System.out.println("Choose another one please:");
+            int b = scanner.nextInt();
 
+            if (a>b){
+                System.out.println("Ohh this is the bigger: "+a);
+            }else {
+                System.out.println("Hey, this number: "+b+ " is bigger than the other one");
+            }
+                */
+
+
+            System.out.println("How many girls came in? : ");
+            int girls = scanner.nextInt();
+            System.out.println("How many boys enter the place? :");
+            int boys = scanner.nextInt();
+
+            if (girls == boys && )
 
         }
     }

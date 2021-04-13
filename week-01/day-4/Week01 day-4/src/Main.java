@@ -1,4 +1,5 @@
 import javax.sound.midi.Soundbank;
+import java.util.Date;
 import java.util.Enumeration;
 import java.util.Scanner;
     public class Main {
@@ -196,7 +197,6 @@ import java.util.Scanner;
             }else {
                 System.out.println("Hey, this number: "+b+ " is bigger than the other one");
             }
-                */
 
 
             System.out.println("How many girls came in? : ");
@@ -205,6 +205,10 @@ import java.util.Scanner;
             int boys = scanner.nextInt();
 
             if (girls == boys && )
+*/
+
+
+¬
 
         }
     }

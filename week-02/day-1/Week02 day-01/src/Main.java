@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         // write your code here
         Scanner scanner = new Scanner(System.in);
@@ -165,6 +166,7 @@ public class Main {
 // %%%%%
 //
 // The square should have as many lines as the number was
+        /*
         System.out.println("Tell me a number: ");
         int side = scanner.nextInt();
 
@@ -177,9 +179,22 @@ public class Main {
                 }
             }
             System.out.println();
+        }  */
+        int[] arr = new int[]{78, 34, 1, 3, 90, 34, -1, -4, 6, 55, 20, -65};
+        System.out.println("Array elements after sorting:");
+//sorting logic
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                int tmp = 0;
+                if (arr[i] > arr[j]) {
+                    tmp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = tmp;
+                }
+            }
+
+
         }
-
-
     }
 }
 

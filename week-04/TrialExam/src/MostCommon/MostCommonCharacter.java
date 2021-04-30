@@ -9,7 +9,7 @@ import java.util.List;
 
 public class MostCommonCharacter {
 
-  Path filePath = Paths("src/MostCommon/countchar.txt");
+  Path filePath = new Paths("src/MostCommon/countchar.txt");
 
   public char mostCommonChar(Path path) {
     int count = 0;
@@ -23,5 +23,5 @@ public class MostCommonCharacter {
     } catch (IOException e) {
       System.out.println("File does not exist!");
     }
-  }return;
+  }return x;
 }

@@ -3,9 +3,11 @@ package SymetricMatrix;
 public class Main {
 
   public static void main(String[] args) {
-    int[][] matrix = new int[4][5];
+    /*int[][] matrix = new int[4][5];
     boolean check = symmetricMatrix(matrix);
     System.out.println(check);
+    */
+
   }
 
   public static boolean symmetricMatrix(int[][] matrix) {

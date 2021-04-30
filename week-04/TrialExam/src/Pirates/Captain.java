@@ -5,10 +5,7 @@ public class Captain extends Pirate {
 
   public Captain() {
     this.woodenLeg = woodenLeg;
-
   }
-
-
 
   @Override
   public void work() {

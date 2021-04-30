@@ -19,10 +19,9 @@ public class Pirate {
   public void party() {
     healthPoint += 1;
   }
-  @Override
-  public void toString(){
 
-  }
+  @Override
+  public void toString() {}
 
   public String getName() {
     return name;

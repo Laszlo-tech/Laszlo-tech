@@ -25,13 +25,18 @@ public class Ship {
       crew.add(new Pirate());
     }
   }
-  /*public void attacking(Ship theShip){
-   for (int i= 0; i < theShip.crew.size() ; i++) {
-     if(theShip.crew.get(i).alive){
 
-     }
-   }
-  */
+  public int getScore() {
+    int score = 0;
+    for (int i = 0; i < this.crew.size(); i++) {
+      if (this.crew.get(i).alive) {
+        score++;
+      }
+    }
+    score -= this.captain.intoxication;
+    return score;
+  }
+
   public void randomDeathGenerator() {
     Random random = new Random();
     int randomDeath = random.nextInt(this.crew.size());
@@ -42,38 +47,13 @@ public class Ship {
 
   public boolean shipBattle(Ship otherShip) {
     boolean result = false;
-    int attacker = 0;
-    for (int i = 0; i < this.crew.size(); i++) {
-      if (this.crew.get(i).alive) {
-        attacker++;
-      }
-    }
-    attacker -= captain.intoxication;
-    int otherAttacker = 0;
-    for (int i = 0; i < otherShip.crew.size(); i++) {
-      if (otherShip.crew.get(i).alive) {
-        otherAttacker++;
-      }
-    }
-    otherAttacker -= otherShip.captain.intoxication;
+    if (this.getScore() > otherShip.getScore()) {
+      otherShip.randomDeathGenerator();
+      result = true;
 
-    if (attacker > otherAttacker) {
-      randomDeathGenerator();
-      //      result = true;
-      //      Random random = new Random();
-      //      int randomDeath = random.nextInt(otherShip.crew.size());
-      //      for (int i = 0; i < randomDeath; i++) {
-      //        otherShip.crew.get(i).alive = false;
-      //      }
     } else {
-      randomDeathGenerator();
+      this.randomDeathGenerator();
     }
-    //      Random random = new Random();
-    //      int randomDeath = random.nextInt(this.crew.size());
-    //      for (int i = 0; i < randomDeath; i++) {
-    //        this.crew.get(i).alive = false;
-    //      }
-    //    }
     return result;
   }
 

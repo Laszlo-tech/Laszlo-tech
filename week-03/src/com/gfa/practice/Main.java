@@ -1,4 +1,4 @@
-package com.gfa.exam;
+package com.gfa.practice;
 
 public class Main {
 

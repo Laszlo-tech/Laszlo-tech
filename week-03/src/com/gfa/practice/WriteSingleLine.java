@@ -1,4 +1,4 @@
-package com.gfa.exam;
+package com.gfa.practice;
 
 import java.io.IOException;
 import java.nio.file.Files;

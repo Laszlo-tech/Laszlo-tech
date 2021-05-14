@@ -1,12 +1,8 @@
 package Workshop;
 
-public abstract class  Vehicle {
-  private String type;
-  private int weight;
-  private String color;
-
-
+public abstract class Vehicle {
+   protected String color;
+   protected int wheels;
+   protected String type;
 
 }
-
-

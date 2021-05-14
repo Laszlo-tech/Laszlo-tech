@@ -1,8 +1,6 @@
 package Workshop;
 
-
 public class Helicopter extends Vehicle implements Flyable{
-
 
   @Override
   public void land() {

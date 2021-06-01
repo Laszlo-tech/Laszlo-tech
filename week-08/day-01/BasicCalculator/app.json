@@ -1,0 +1,26 @@
+{
+  "id": "be9e6281-52e2-48ca-bade-b1a9165d5770",
+  "name": "BasicCalculator",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://BasicCalculator.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

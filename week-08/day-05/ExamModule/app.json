@@ -1,0 +1,26 @@
+{
+  "id": "92468d27-99d1-4750-a5a4-b53d9b713f27",
+  "name": "ExamModule",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ExamModule.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

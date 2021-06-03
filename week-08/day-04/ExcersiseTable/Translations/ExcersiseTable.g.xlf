@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ExcersiseTable">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2842729223 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Author - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2842729223 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Author - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Method 3152277940 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnDelete trigger run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Method OnDelete - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Method 1262666395 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hello World</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Method OnModify - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Method 804474859 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnRename trigger run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Method OnRename - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 1312064788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AuthorId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field AuthorId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 1133047094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HardCover</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field HardCover - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 1784654582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HoursToRead</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field HoursToRead - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 2473884911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NumOfBooks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field NumOfBooks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 2113770117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NumOfHarcoverBooks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field NumOfHarcoverBooks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 2407638772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PageCount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field PageCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 329424276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field Title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1606545787 - Field 1786386262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalHoursOfRead</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field TotalHoursOfRead - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 685750181 - Action 4182490417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Author List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookList - Action AuthorList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 685750181 - Action 567666638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookList - Action CreateReport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4281115141 - NamedType 945593880" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This is the first head line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookshelfHeadLine - NamedType FirstHeadLine</note>
+        </trans-unit>
+        <trans-unit id="Page 4281115141 - NamedType 949562090" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Second head llllline</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookshelfHeadLine - NamedType SecondHeadLine</note>
+        </trans-unit>
+        <trans-unit id="Page 2134858097 - Action 3481994534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new book</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenter - Action Books - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2134858097 - Action 2721997682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The List of Authors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenter - Action Authors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2134858097 - Action 1529042151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Bookshelf!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenter - Action BookShelf - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2134858097 - Action 4182490417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Author List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenter - Action AuthorList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2134858097 - Action 685750181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Book List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenter - Action BookList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3277778791 - Control 501661907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculation review</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenterBookCardPart - Control Calculation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3277778791 - Control 2473884911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of  books</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenterBookCardPart - Control NumOfBooks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3277778791 - Control 2113770117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of Hardcover books</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenterBookCardPart - Control NumOfHarcoverBooks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3277778791 - Control 1786386262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hours it takes to read all</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page RoleCenterBookCardPart - Control TotalHoursOfRead - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 482646218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bookshelf profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile BookshelfProfile - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

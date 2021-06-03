@@ -49,15 +49,16 @@ page 50105 BoxOfficeList
 
     actions
     {
-        area(Processing)
+        area(Reporting)
         {
             action(ActionName)
             {
                 ApplicationArea = All;
+                Caption = 'Full Report';
 
                 trigger OnAction()
                 begin
-
+                    Report.Run(Report::BoxOfficeReport);
                 end;
             }
         }

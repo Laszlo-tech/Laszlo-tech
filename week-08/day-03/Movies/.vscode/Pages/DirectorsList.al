@@ -35,15 +35,15 @@ page 50100 DirectorsList
 
     actions
     {
-        area(Processing)
+        area(Reporting)
         {
-            action(ActionName)
+            action(GetReport)
             {
                 ApplicationArea = All;
-
+                Caption = 'Get all movies';
                 trigger OnAction()
                 begin
-
+                    Report.Run(Report::DirectorReport);
                 end;
             }
         }

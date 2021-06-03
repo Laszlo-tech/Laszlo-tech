@@ -28,6 +28,11 @@ page 50104 BoxOfficeCard
                     ApplicationArea = All;
 
                 }
+                field(MovieId; Rec.MovieId)
+                {
+                    ApplicationArea = All;
+
+                }
 
             }
         }

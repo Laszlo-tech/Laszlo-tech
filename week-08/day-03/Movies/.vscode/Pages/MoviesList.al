@@ -44,15 +44,16 @@ page 50102 MovieList
 
     actions
     {
-        area(Processing)
+        area(Reporting)
         {
-            action(ActionName)
+            action(GetReport)
             {
                 ApplicationArea = All;
+                Caption = 'All movies';
 
                 trigger OnAction()
                 begin
-
+                    Report.Run(Report::MovieReport);
                 end;
             }
         }

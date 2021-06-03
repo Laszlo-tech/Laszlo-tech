@@ -1,27 +1,25 @@
-report 50100 MovieReport
+report 50101 DirectorReport
 {
     UsageCategory = Administration;
     ApplicationArea = All;
-    DefaultLayout = RDLC;
-    RDLCLayout = 'MovieReport.rdl';
     UseRequestPage = true;
+    DefaultLayout = RDLC;
+    RDLCLayout = 'DirectorReport.rdl';
+
 
     dataset
     {
-        dataitem(MoviesTable; Movie)
+        dataitem(DirectorTable; Director)
         {
-            column(Title; Title)
+            column(Name; Name)
             {
 
             }
-            column(LengthInMinutes; LengthInMinutes)
+            column(Birth; Birth)
             {
 
             }
-            column(Year; Year)
-            {
 
-            }
         }
     }
 
@@ -33,7 +31,7 @@ report 50100 MovieReport
             {
                 group(GroupName)
                 {
-                    field(Name; MoviesTable.Title)
+                    field(Name; DirectorTable.Name)
                     {
                         ApplicationArea = All;
 

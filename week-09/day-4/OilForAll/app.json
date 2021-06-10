@@ -1,0 +1,26 @@
+{
+  "id": "35d4f3fc-9a1d-45d9-80fb-4e7b0b26f8e8",
+  "name": "OilForAll",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://OilForAll.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
